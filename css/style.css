@@ -157,4 +157,8 @@ iframe {
     padding-bottom: 15px;
   }
 
+  #main h1, #main h2 {
+    text-align: right;
+  }
+
 }

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <title>FreeBASIC Language</title>
+  </head>
+  <body>
+    <div id="main-wrapper">
+      <div id="header">
+        <a href="index.html"><img src="images/logo.png" alt="FreeBASIC Logo of a Horse Galloping" />
+        <h2>FreeBASIC</h2></a>
+        <div id="nav">
+          <ul>
+            <li><a href="forum">Community Forum</a></li>
+            <li><a href="wiki">Documentation</a></li>
+            <li><a href="https://sf.net/projects/fbc/files">Downloads</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="main">
+        <h1>Welcome to FreeBASIC</h1>
+        <p>
+          FreeBASIC is a free/open source (GPL), BASIC compiler for Microsoft Windows, DOS and Linux.
+        </p>
+        <p>
+          When used in its "QB" language mode, FreeBASIC provides a high level of support for programs written for QuickBASIC. Many programs written for QuickBASIC will compile and run in this mode with no changes needed. However, for compilation in the FreeBASIC default language mode, most substantial programs will require changes.
+        </p>
+        <p>
+          FreeBASIC is a self-hosting compiler which makes use of the GNU binutils programming tools as backends and can produce console, graphical/GUI executables, dynamic and static libraries. FreeBASIC fully supports the use of C libraries and has partial C++ library support. This lets programmers use and create libraries for C and many other languages. It supports a C style preprocessor, capable of multiline macros, conditional compiling and file inclusion.
+        </p>
+        <p>
+          FreeBASIC has been rated close in speed with mainstream tools, such as GCC.
+        </p>
+        <p>
+          <a href="https://sf.net/projects/fbc/files">Download Now</a>
+        </p>
+        <hr />
+        <h2>More about FreeBASIC</h2>
+        <p>
+          The FreeBASIC project is a set of cross-platform development tools initially created by Andre Victor, consisting of a compiler, GNU-based assembler, linker and archiver, and supporting runtime libraries, including a software-based graphics library. The compiler, fbc, currently supports building for i386-based architectures on the DOS, Linux, Windows and Xbox platforms. The project also contains thin bindings (header files) to some popular 3rd party libraries such as the C runtime library, Allegro, SDL, OpenGL, GTK+, the Windows API and many others, as well as example programs for many of these libraries.
+        </p>
+        <p>
+          FreeBASIC is a high-level programming language supporting procedural, object-orientated and meta-programming paradigms, with a syntax compatible to Microsoft QuickBASIC. In fact, the FreeBASIC project originally began as an attempt to create a code-compatible, free alternative to Microsoft QuickBASIC, but it has since grown into a powerful development tool. FreeBASIC can be seen to extend the capabilities of Microsoft QuickBASIC in a number of ways, supporting more data types, language constructs, programming styles, and modern platforms and APIs.
+        </p>
+        <h2>Most Important Features</h2>
+        <h3>BASIC compatibility</h3>
+        <p>
+          FreeBASIC is not a "new" BASIC language. You don't need to learn much new if you are familiar with any Microsoft-BASIC variant. You can use either "-lang qb" for compatibility, or (default) "-lang fb" for some of the new features, but it also brings some restrictions and some similarity with the "C" programming language. FreeBASIC is case-insensitive; explicit "main" procedure is not required; most of the graphic and console statements and procedures found in Microsoft QuickBASIC are implemented, et cetera. Only with "-lang qb": scalar variables don't need to be dimensioned and suffixes can be used; line numbers are supported; On Error and Gosub supported.
+        </p>
+        <h3>Clean syntax</h3>
+        <p>
+          Only a small number of keywords have been added. All procedures are implemented as libraries, so for the most part, there are no new intrinsic routines, and therefore there is a low chance of having name duplication with old code.
+        </p>
+        <h3>Thin bindings (header files) to existing C libraries and APIs</h3>
+        <p>
+          No wrappers or helpers are necessary, just a ported header file, making usage of external C libraries very easy. The official distribution comes with several bindings to existing C libraries already, see External Libraries TOC for a complete up-to-date list.
+        </p>
+        <h3>Multi-platform</h3>
+        <p>
+          FreeBASIC currently runs on 32-bit Windows, Linux, and DOS (a 16-bit DOS is good enough, although FreeBASIC itself and compiler output are 32-bit) and also creates applications for the Xbox console. More platforms to come. The runtime library was written with portability in mind. All third-party tools used exist on most operating systems already as they are from the GNU binutils. The compiler is written in 100% FreeBASIC code (that is, FreeBASIC compiles itself.), which makes it simple to be bootstrapped as it doesn't depend on non-portable tools.
+        </p>
+        <h3>Unicode support</h3>
+        <p>
+          Besides ASCII files with Unicode escape sequences (\u), FreeBASIC can parse UTF-8, UTF-16LE, UTF-16BE, UTF-32LE and UTF-32BE source (.bas) or header (.bi) files, they can be freely mixed with other sources/headers in the same project (also with other ASCII files). Literal strings can be typed in the original non-Latin alphabet, just use a text-editor that supports some of the Unicode formats listed above. The Wstring type holds wide-characters, all string procedures (like Left, Trim, etc) will work with wide-strings too. Open was extended to support UTF-8, UTF-16LE and UTF-32LE files with the Encoding specifier. Input # and Line Input #, as well as Print # and Write # can be used normally, and any conversion between Unicode to ASCII is done automatically if necessary. Print also supports Unicode output (see Requirements).
+        </p>
+        <h3>A large number of built-in data types</h3>
+        <p>
+          Integer: Byte, Ubyte, Short, Ushort, Integer, UInteger, Long, ULong, Longint, Ulongint
+          Floating-point: Single, Double
+          String: fixed, variable-length or null-terminated (Zstring), up to 2GB long Unicode strings (Wstring), like Zstring, but with support for wide characters. Use the Windows Unicode API procedures directly, etc.
+        </p>
+        <h3>User-defined types (UDTs)</h3>
+        <p>
+          Unlimited nesting. BASIC's Type statement is supported, along with the new Union statement (including anonymous nested unions). Array fields utilizing up to eight dimensions can be used. Procedure pointer fields. Bit fields. Enumerations (enums) Easily declare a list of constants with sequential values with Enum. Arrays Fixed- and variable- length arrays are supported, up to 2 GB in size. Up to eight dimensions, including arrays with unknown dimensions. Any lower and upper boundaries. Element data can be preserved during a re-size of variable-length arrays with Redim using the new Preserve specifier. Pointers to any of the data types listed above, including string characters, array elements and UDT's. Uses the same syntax as C. Unlimited indirection levels (e.g., pointer to pointer to ...). Procedure pointers. Indexing []'s (including string indexing). Type casting. Variable, object and array initialization For static, module-level or local variables, arrays and UDT's.
+        </p>
+        <h3>Default procedure parameter values</h3>
+        <p>
+          For numeric, string and UDT parameter types. Procedure overloading Including procedures with default parameter values.
+        </p>
+        <h3>In-line assembly Intel syntax</h3>
+        <p>
+          Reference variables directly by name; no "trick code" needed.
+        </p>
+        <h3>Traditional preprocessor support</h3>
+        <p>
+          Same syntax as in C. Single-line macros supported with the #Define command, including parameters. Multi-line macros supported with the #Macro command. Type aliases Supporting forward referencing as in C, including UDT and procedure pointer types. C-like escape sequences for string literals Same as in C (except numbers are interpreted as decimal, not octal).
+        </p>
+        <h3>Debugging support</h3>
+        <p>
+          Full debugging support with GDB (the GNU debugger) or Insight (a GDB GUI frontend). Array bounds checking (only enabled by the -exx command-line option). Null pointer checking (same as above).
+        </p>
+        <h3>Create OBJ's, LIB's, DLL's, and console or GUI EXE's</h3>
+        <p>
+          You are in no way locked to an IDE or editor of any kind. You can create static and dynamic/shared libraries adding just one command-line option (-lib or -dylib/-dll). As a 32-bit application FreeBASIC can compile source code files up to 2 GB in size. The number of symbols (variables, constants, et cetera) is only limited by the total memory available during compile time. (You can, for example, include OpenGL, GTK/SDL, BASS, simultaneously in your source code.)
+        </p>
+        <h3>Optimized code generation</h3>
+        <p>
+          While FreeBASIC is not an optimizing compiler, it does many kinds of general optimizations to generate the fastest possible code on x86 CPU's, not losing to other BASIC alternatives, including the commercial ones. Completely free All third-party tools are also free. No piece of abandoned or copyrighted software is used (except GoRC on Win32). The assembler, linker, archiver, and other command-line applications come from the GNU binutils programming tools.
+        </p>
+      </div>
+      <hr />
+      <div id="footer">
+        <div id="copyright">
+          Copyright &copy; 2004-2016 The FreeBASIC Development Team
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

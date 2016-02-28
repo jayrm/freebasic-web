@@ -140,20 +140,19 @@ iframe {
   }
   #header {
     color: #000;
-    width: 320px;
     max-width: 100%;
     margin: 0 auto;
     position: relative;
   }
   #header img {
-    width: 64px;
-    height: 64px;
+    width: 100px;
+    height: 100px;
     display: inline-block;
     position: absolute;
-    left: calc(50% - 112px);
+    left: calc(50% - 132px);
   }
   #header h2 {
-    font-size: 24px;
+    font-size: 3.6em;
     display: inline-block;
     position: absolute;
     top: 24px;
@@ -161,13 +160,13 @@ iframe {
     color: #000;
   }
   #nav {
-    padding-top: 64px;
+    padding-top: 105px;
     padding-bottom: 10px;
   }
 
   #nav a {
-    line-height: 32px;
-
+    line-height: 2em;
+	 font-size: 1.9em;
   }
 
   #nav a:hover {

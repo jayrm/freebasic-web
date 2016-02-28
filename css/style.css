@@ -143,7 +143,6 @@ hr {
  */
 .freebasic .de1, .freebasic .de2 {color: #552b66; font-weight: normal;}
 .freebasic  {
-  width: 90%;
   overflow: scroll;
   white-space: nowrap;
   border: 1px dotted #a0a0a0;

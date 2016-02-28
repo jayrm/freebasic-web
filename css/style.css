@@ -141,7 +141,7 @@ hr {
  * GeSHi (C) 2004 - 2007 Nigel McNie, 2007 - 2014 Benny Baumann
  * (http://qbnz.com/highlighter/ and http://geshi.org/)
  */
-.freebasic .de1, .freebasic .de2 {color: #552b66; font-weight: normal;}
+.freebasic .de1, .freebasic .de2 {color: #782f9e; font-weight: normal;}
 .freebasic  {
   overflow: scroll;
   white-space: nowrap;
@@ -176,7 +176,7 @@ hr {
 .freebasic .br0 {color: #24be24;}
 .freebasic .sy0 {color: #66cc66;}
 .freebasic .st0 {color: #f71e1e;}
-.freebasic .nu0 {color: #e22580;}
+.freebasic .nu0 {color: #ff3696;}
 .freebasic .me0 {color: #66cc66;}
 .freebasic .me {1}
 .freebasic span.xtra { display:block; }

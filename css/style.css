@@ -99,6 +99,11 @@ iframe {
   background-color: #fff;
 }
 
+#main ul {
+  background-color: #fff;
+  padding-left: 20px;
+}
+
 #main a {
 	color: #BE3F36;
 	text-decoration: none;
@@ -106,6 +111,28 @@ iframe {
 
 #main a:hover {
 	text-decoration: underline;
+}
+hr {
+  clear: both;
+}
+.downloadlink {
+  text-align: center !important;
+}
+.download {
+  background-color: #129c10;
+  color: #fff !important;
+
+  clear: both;
+  margin: 15px 10px;
+  border: 3px solid #1b6b1a;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-family: "Exo 2", Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+}
+
+.download:hover {
+  background-color: #14b811;
 }
 
 /**

@@ -183,6 +183,9 @@ hr {
 
 
 @media only screen and (max-device-width : 959px) {
+  .freebasic {
+    font-size: 130%;
+  }
   #main-wrapper {
     padding: 5px 10px;
   }

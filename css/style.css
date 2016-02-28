@@ -141,13 +141,14 @@ hr {
  */
 .freebasic .de1, .freebasic .de2 {color: #000060; font-weight: normal;}
 .freebasic  {
+  width: 90%;
   overflow: scroll;
   white-space: nowrap;
   border: 1px dotted #a0a0a0;
   font-family: 'Droid Sans Mono', 'Lucida Console', Monaco, monospace;
   font-size: 100%;
   background-color: #f0f0f0;
-  margin: 0;
+  margin: 0 auto;
   line-height: 110%;
   padding: 0;
   padding-left:40px;

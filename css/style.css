@@ -160,8 +160,8 @@ hr {
 .freebasic .imp {font-weight: bold; color: red;}
 .freebasic li, .freebasic .li1, .freebasic .li2 {
   font-family: 'Droid Sans Mono', 'Lucida Console', Monaco, monospace;
-  color: #000060;
-  background-color: #f0ecec; 
+  color: #571e75;
+  background-color: #f0ecec;
   padding-bottom: 2px;
 }
 .freebasic .ln {width:1px;text-align:right;margin:0;padding:0 2px;vertical-align:top;}

@@ -33,12 +33,12 @@ body {
 #nav a {
   text-decoration: none;
   padding: 5px 10px;
-      background-color: #5d6578;
-	 background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.25) 0, rgba(255,255,255,0) 100%);
-	 background-image: linear-gradient(to bottom, rgba(255,255,255,0.25) 0, rgba(255,255,255,0) 100%);
-	 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#40FFFFFF', endColorstr='#00FFFFFF');
-	 box-shadow: 0 5px 5px -5px rgba(0,0,0,0.2);
-	 color: #fff;
+  background-color: #5d6578;
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.25) 0, rgba(255,255,255,0) 100%);
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.25) 0, rgba(255,255,255,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#40FFFFFF', endColorstr='#00FFFFFF');
+  box-shadow: 0 5px 5px -5px rgba(0,0,0,0.2);
+  color: #fff;
 }
 
 #nav li:first-child a {
@@ -60,18 +60,18 @@ iframe {
 }
 
 #main h1, #main h2, #main h3 {
-  
+
   padding: 5px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   background-color: #5d6578;
-	 background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.25) 0, rgba(255,255,255,0) 100%);
-	 background-image: linear-gradient(to bottom, rgba(255,255,255,0.25) 0, rgba(255,255,255,0) 100%);
-	 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#40FFFFFF', endColorstr='#00FFFFFF');
-	 box-shadow: 0 5px 5px -5px rgba(0,0,0,0.2);
-	 color: #fff;
-	 font-weight: normal;
-	 font-family: "Exo 2", Arial, Helvetica, sans-serif;
+  background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.25) 0, rgba(255,255,255,0) 100%);
+  background-image: linear-gradient(to bottom, rgba(255,255,255,0.25) 0, rgba(255,255,255,0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#40FFFFFF', endColorstr='#00FFFFFF');
+  box-shadow: 0 5px 5px -5px rgba(0,0,0,0.2);
+  color: #fff;
+  font-weight: normal;
+  font-family: "Exo 2", Arial, Helvetica, sans-serif;
 }
 
 #main h1 {
@@ -94,7 +94,7 @@ iframe {
 
 #main p {
 	padding: 5px 10px 15px 10px;
-  
+
   text-align: justify;
   background-color: #fff;
 }

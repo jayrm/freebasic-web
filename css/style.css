@@ -160,7 +160,7 @@ hr {
 .freebasic .imp {font-weight: bold; color: red;}
 .freebasic li, .freebasic .li1, .freebasic .li2 {
   font-family: 'Droid Sans Mono', 'Lucida Console', Monaco, monospace;
-  color: #571e75;
+  color: #782f9e;
   background-color: #f0ecec;
   padding-bottom: 2px;
 }
@@ -171,10 +171,10 @@ hr {
 .freebasic .co2 {color: #339933;}
 .freebasic .coMULTI {font-style: normal;}
 .freebasic .es0 {color: #000099;font-weight: normal;}
-.freebasic .br0 {color: #66cc66;}
+.freebasic .br0 {color: #24be24;}
 .freebasic .sy0 {color: #66cc66;}
-.freebasic .st0 {color: #ff0000;}
-.freebasic .nu0 {color: #cc66cc;}
+.freebasic .st0 {color: #f71e1e;}
+.freebasic .nu0 {color: #e22580;}
 .freebasic .me0 {color: #66cc66;}
 .freebasic .me {1}
 .freebasic span.xtra { display:block; }

@@ -294,6 +294,11 @@ hr {
 	.hero-list {
 		display: none;
 	}
+	
+	#main {
+		font-size: 110%;
+		line-height: 120%;
+	}
 
 }
 

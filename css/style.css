@@ -252,14 +252,33 @@ hr {
     padding-top: 105px;
     padding-bottom: 10px;
   }
+  
+  #nav li {
+	  width: 100%;
+  }
+  
+  #nav li:first-child a {
+	border-top-right-radius: 5px;  
+  }
+  
+  #nav li:last-child a {
+	border-radius: 0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-bottom: 10px;  
+  }
 
   #nav a {
     line-height: 2em;
 	 font-size: 1.9em;
+	 display: block;
+	 width: 100%;
+	 padding-left: 0;
+	 padding-right: 0;
   }
 
   #nav a:hover {
-    background-color: #929293;
+    background-color: #fff;
   }
 
 

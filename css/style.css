@@ -147,7 +147,7 @@ hr {
  */
 .freebasic .de1, .freebasic .de2 {color: #782f9e; font-weight: normal;}
 .freebasic  {
-  overflow: scroll;
+  overflow-x: scroll;
   white-space: nowrap;
   border: 1px dotted #a0a0a0;
   font-family: 'Droid Sans Mono', 'Lucida Console', Monaco, monospace;
@@ -239,6 +239,9 @@ hr {
     padding: 10px 0;
   }
 
+	.hero-list {
+		display: none;
+	}
 
 }
 
@@ -285,6 +288,38 @@ hr {
 
   #main h1, #main h2 {
     text-align: right;
+  }
+  
+  	.filler {
+		display: table;  
+		width: 100%;	
+  	}
+
+	.hero-list {
+		width: 36%;
+		display: table-cell;
+		font-family: "Sansita One", cursive;
+		font-size: 36px;
+		vertical-align: middle;
+		line-height: 120px;
+		float: left;
+	}  
+	.hero-list ul {
+		list-style: none;
+		margin: 0 auto;
+		padding-left: 40px !important;
+	}
+	
+	.hero-list li {
+		background-image: url(../images/check.png);
+		background-repeat: no-repeat;
+		background-position: 90% center;	
+	}
+  
+  .fbwrap {
+		width: 64%; 
+		float: right; 
+		display: table-cell;
   }
 
 }

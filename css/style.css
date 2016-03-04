@@ -245,10 +245,10 @@ hr {
     height: 100px;
     display: inline-block;
     position: absolute;
-    left: calc(50% - 132px);
+    left: calc(50% - 160px);
   }
   #header h2 {
-    font-size: 3.6em;
+    font-size: 4.6em;
     display: inline-block;
     position: absolute;
     top: 24px;

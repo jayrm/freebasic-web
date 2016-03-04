@@ -241,11 +241,12 @@ hr {
     position: relative;
   }
   #header img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     display: inline-block;
     position: absolute;
-    left: calc(50% - 160px);
+    left: 5px;
+    top: 5px;
   }
   #header h2 {
     font-size: 4.6em;
@@ -256,7 +257,7 @@ hr {
     color: #000;
   }
   #nav {
-    padding-top: 105px;
+    padding-top: 125px;
     padding-bottom: 10px;
   }
   

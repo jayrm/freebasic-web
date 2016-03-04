@@ -228,7 +228,7 @@ hr {
 
 @media only screen and (max-device-width : 959px) {
   .freebasic {
-    font-size: 130%;
+    font-size: 32px;
     padding-left: 60px;
   }
   #main-wrapper {
@@ -312,6 +312,12 @@ hr {
 	#main h1, #main h2 {
 		font-size: 125%;	
 	}
+	
+	.download {
+		font-size: 50px;
+		padding: 30px 40px;	
+	}
+
 
 }
 

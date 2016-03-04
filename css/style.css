@@ -241,23 +241,24 @@ hr {
     position: relative;
   }
   #header img {
-    width: 120px;
-    height: 120px;
+    width: 150px;
+    height: 150px;
     display: inline-block;
     position: absolute;
     left: 5px;
     top: 5px;
   }
   #header h2 {
-    font-size: 4.6em;
+    font-size: 60px;
     display: inline-block;
     position: absolute;
     top: 24px;
-    left: calc(50% - 36px);
+    left: calc(50% - 136px);
     color: #000;
   }
   #nav {
-    padding-top: 125px;
+  	clear:both;
+    padding-top: 160px;
     padding-bottom: 10px;
   }
   

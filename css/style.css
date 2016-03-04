@@ -222,11 +222,23 @@ hr {
 	padding-bottom: 10px;
 }
 
-  h2 + h3 {
-		border-radius: 0 !important;  
-  }
+h2 + h3 {
+	border-radius: 0 !important;  
+}
+
+#designfooter {
+	float: right;
+	clear: both;
+}
+#designfooter a {
+	text-decoration: none;
+	color: #aaa;
+}
 
 @media only screen and (max-device-width : 959px) {
+	body {
+		font-size: 20px;
+	}
   .freebasic {
     font-size: 32px;
     padding-left: 60px;

@@ -184,7 +184,7 @@ hr {
   white-space: nowrap;
   border: 1px dotted #a0a0a0;
   font-family: 'Droid Sans Mono', 'Lucida Console', Monaco, monospace;
-  font-size: 100%;
+  font-size: 90%;
   background-color: #f0f0f0;
   margin: 0 auto;
   line-height: 110%;
@@ -218,6 +218,13 @@ hr {
 .freebasic .me {1}
 .freebasic span.xtra { display:block; }
 
+.fbwrap {
+	padding-bottom: 10px;
+}
+
+  h2 + h3 {
+		border-radius: 0 !important;  
+  }
 
 @media only screen and (max-device-width : 959px) {
   .freebasic {
@@ -362,7 +369,7 @@ hr {
 		font-family: "Sansita One", cursive;
 		font-size: 36px;
 		vertical-align: middle;
-		line-height: 120px;
+		line-height: 40px;
 		float: left;
 	}  
 	.hero-list ul {
@@ -374,7 +381,12 @@ hr {
 	.hero-list li {
 		background-image: url(../images/check.png);
 		background-repeat: no-repeat;
-		background-position: 90% center;	
+		background-position: 90% top;	
+		padding-bottom: 50px;
+	}
+	
+	.hero-list ul li:last-child {
+		padding-bottom: 0;	
 	}
   
   .fbwrap {

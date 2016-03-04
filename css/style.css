@@ -249,11 +249,11 @@ hr {
     top: 5px;
   }
   #header h2 {
-    font-size: 60px;
+    font-size: 90px;
     display: inline-block;
     position: absolute;
     top: 24px;
-    left: calc(50% - 136px);
+    left: 160px;
     color: #000;
   }
   #nav {

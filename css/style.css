@@ -299,6 +299,10 @@ hr {
 		font-size: 110%;
 		line-height: 120%;
 	}
+	
+	#main h1, #main h2 {
+		font-size: 125%;	
+	}
 
 }
 

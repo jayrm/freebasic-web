@@ -11,9 +11,18 @@ body {
   color: #3b3636;
 }
 
+hr {
+	clear: both;
+}
+
 #header h2 {
   color: #000;
   font-family: "Exo 2", Arial, Helvetica, sans-serif;
+}
+
+#header h2 a {
+	text-decoration: none;
+	color: inherit;
 }
 
 #nav ul {
@@ -339,6 +348,10 @@ h2 + h3 {
 		font-size: 50px;
 		padding: 30px 40px;	
 	}
+	
+	#main img {
+		max-width: 100%;	
+	}
 
 
 }
@@ -423,6 +436,17 @@ h2 + h3 {
 		width: 64%; 
 		float: right; 
 		display: table-cell;
+  }
+  
+  #main img {
+	width: 320px; 
+	margin: 10px; 
+  }
+  .gallery-left {
+	float: left;  
+  }
+  .gallery-right {
+	float: right;  
   }
 
 }
